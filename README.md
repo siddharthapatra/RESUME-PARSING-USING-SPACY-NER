@@ -1,2 +1,5 @@
-# RESUME-PARSING-USING-SPACY-NER
+### RESUME-PARSING-USING-SPACY-NER
  
+In the fast-paced and ever-evolving job market of today, the recruitment process has become increasingly intricate and demanding for recruiters and HR professionals. Countless resumes flood the recruitment pipeline, creating a tedious and time-consuming task to identify the most qualified candidates for a position. To combat this challenge, we embarked on a mission to create a resume parser application that harnesses the power of Natural Language Processing (NLP) and, more specifically, Spacy's Named Entity Recognition (NER) technology to autonomously extract essential entities such as name, location, experience, and skills from a resume.
+
+This project report aims to take you through the intricate and elaborate development process of our innovative resume parser application, starting from the preliminary data preparation to the final model deployment. We delve into the highly technical aspects of implementing Spacy's NER technology and share our in-depth experiences of overcoming various challenges along the way.
