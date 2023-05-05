@@ -1,4 +1,4 @@
-### Resume Parser Application using Natural Language Processing (Spacy NER)
+# Resume Parser Application using Natural Language Processing (Spacy NER)
  
 In the fast-paced and ever-evolving job market of today, the recruitment process has become increasingly intricate and demanding for recruiters and HR professionals. Countless resumes flood the recruitment pipeline, creating a tedious and time-consuming task to identify the most qualified candidates for a position. To combat this challenge, we embarked on a mission to create a resume parser application that harnesses the power of Natural Language Processing (NLP) and, more specifically, Spacy's Named Entity Recognition (NER) technology to autonomously extract essential entities such as name, location, experience, and skills from a resume.
 
@@ -28,5 +28,17 @@ Here are some of the concepts you will learn when building this python resume pa
 
 **The machine learning pipeline** is used to build a model that can pull out relevant fields like location, name, etc., from different resumes of different formats. Neural networks using the SpaCy library are employed to accomplish this.
 
-**Scaling up the Resume Parser in Python!**
+### **Scaling up the Resume Parser in Python!**
 The project also teaches you how to scale up the resume parser in Python for large-scale resumes. A production-ready model for resume parsing is built that can analyze millions of resumes using GCP Model Deployment using Streamlit for Resume Parsing. Before deploying the model for large-scale resumes, it is important to tag them and make the model learn any new entities that might have been added.
+
+
+
+## Frequently Asked Questions on Resume Parser in Python
+ 
+1) How do you extract skills from a resume using Python?
+The first step in extracting skills or any other entity from a resume is to do data preprocessing and applying techniques like tokenization, lemmatization, pos tagging, stopwords elimination, etc. with the help of the library, SpaCy.  Post this, you can apply neural networks to tag entities and make the model learn from custom tags or you can then use an existing Neural Networks model to do the predictions.
+
+ 
+
+2)  How do you parse a resume in Python?
+To parse a resume in Python, especially for PDFs, one needs to perform optical character recognition (OCR) to extract text from the documents. You can use Apache Tika or Tesseract library for extracting the text out of these PDFs. If the resume is in a word document, then you need to write a code that can read a document and extract text from it.
